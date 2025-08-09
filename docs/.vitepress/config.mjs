@@ -1,13 +1,13 @@
-import {defineConfig} from 'vitepress'
+import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   // https://vitepress.dev/reference/default-theme-config
   lang: 'pt-BR',
-  base: "/doc",
+  base: "/freelance-allcancesms-docs/",
   title: "Allcance SMS - Documentação do Painel",
   description: "Documentação oficial do painel da AllcanceSMS. Encontre guias detalhados, instruções de realização de tarefas e melhores práticas para utilizar nossos serviços de envio de SMS de forma eficiente e segura.",
-  head: [['link', {rel: 'icon', href: 'favicon.ico'}]],
+  head: [['link', { rel: 'icon', href: 'favicon.ico' }]],
   themeConfig: {
     siteTitle: "<img src=\"./allcance-logo-black.png\" width=\"200\" alt=\"Logo da Allcance\"/>",
     titleTemplate: ":title - Documentação",
@@ -16,67 +16,67 @@ export default defineConfig({
     outlineTitle: 'Nesta página',
 
     nav: [
-      {text: 'Suporte', link: 'https://wa.me/553132311301'},
-      {text: 'Comece por aqui', link: '/get-started'},
-      {text: 'Campanhas', link: '/create-campaign'},
+      { text: 'Suporte', link: 'https://wa.me/553132311301' },
+      { text: 'Comece por aqui', link: '/get-started' },
+      { text: 'Campanhas', link: '/create-campaign' },
     ],
 
     sidebar: [
       {
         text: 'Comece por aqui',
         items: [
-          {text: 'Criando uma conta gratuita', link: '/get-started'},
-          {text: 'Completando o cadastro', link: '/complete-register'},
-          {text: 'Criando a primeira campanha', link: '/create-campaign'},
+          { text: 'Criando uma conta gratuita', link: '/get-started' },
+          { text: 'Completando o cadastro', link: '/complete-register' },
+          { text: 'Criando a primeira campanha', link: '/create-campaign' },
         ]
       },
       {
         text: 'Campanhas',
         items: [
-          {text: 'Criando uma campanha', link: '/create-campaign'},
-          {text: 'Usando parâmetros para personalizar a mensagem', link: '/create-campaign#usando-parametros-na-mensagem'},
-          {text: 'Editando a mensagem de uma campanha criada', link: '/edit-campaign-message'},
-          {text: 'Campanhas SMS', link: '/sms-campaigns'},
-          {text: 'WhatsApp', link: '/whatsapp-campaigns'},
-          {text: 'Torpedo Interativo', link: '/torpedo-campaings'},
-          {text: 'Rastreador de links', link: '/trackers-links'},
-          {text: 'Localizando uma campanha', link: '/search-campaigns'},
-          {text: 'Desempenho, respostas e rastreio', link: '/advanced-filters-campaings'},
+          { text: 'Criando uma campanha', link: '/create-campaign' },
+          { text: 'Usando parâmetros para personalizar a mensagem', link: '/create-campaign#usando-parametros-na-mensagem' },
+          { text: 'Editando a mensagem de uma campanha criada', link: '/edit-campaign-message' },
+          { text: 'Campanhas SMS', link: '/sms-campaigns' },
+          { text: 'WhatsApp', link: '/whatsapp-campaigns' },
+          { text: 'Torpedo Interativo', link: '/torpedo-campaings' },
+          { text: 'Rastreador de links', link: '/trackers-links' },
+          { text: 'Localizando uma campanha', link: '/search-campaigns' },
+          { text: 'Desempenho, respostas e rastreio', link: '/advanced-filters-campaings' },
         ]
       },
       {
         text: 'Créditos',
         items: [
-          {text: 'Como comprar créditos', link: '/buy-credits#criando-uma-fatura-e-adicionando-itens'},
-          {text: 'Onde vejo as minhas faturas', link: '/buy-credits#localizando-faturas'},
+          { text: 'Como comprar créditos', link: '/buy-credits#criando-uma-fatura-e-adicionando-itens' },
+          { text: 'Onde vejo as minhas faturas', link: '/buy-credits#localizando-faturas' },
         ]
       },
       {
         text: 'Ferramentas',
         items: [
-          {text: 'Rastreadores', link: '/trackers'},
-          {text: 'Resposta automática', link: '/auto-responses'},
-          {text: 'Grupos de contato', link: '/contacts-groups'},
-          {text: 'Lista Negra', link: '/black-list'},
-          {text: 'Caixa de entrada', link: '/inbox'},
+          { text: 'Rastreadores', link: '/trackers' },
+          { text: 'Resposta automática', link: '/auto-responses' },
+          { text: 'Grupos de contato', link: '/contacts-groups' },
+          { text: 'Lista Negra', link: '/black-list' },
+          { text: 'Caixa de entrada', link: '/inbox' },
         ]
       },
       {
         text: 'Controle e administração',
         items: [
-          {text: 'Entendendo o dashboard', link: '/dashboard'},
-          {text: 'Financeiro', link: '/finance'},
-          {text: 'Redefinindo a sua senha', link: '/account#redefinir-a-senha'},
-          {text: 'Alterando a senha', link: '/account#alterando-a-senha'},
-          {text: 'Atualizando os seus dados', link: '/account#atualizando-os-seus-dados'},
-          {text: 'Notificações', link: '/notifications'}
+          { text: 'Entendendo o dashboard', link: '/dashboard' },
+          { text: 'Financeiro', link: '/finance' },
+          { text: 'Redefinindo a sua senha', link: '/account#redefinir-a-senha' },
+          { text: 'Alterando a senha', link: '/account#alterando-a-senha' },
+          { text: 'Atualizando os seus dados', link: '/account#atualizando-os-seus-dados' },
+          { text: 'Notificações', link: '/notifications' }
         ]
       },
       {
         text: 'Relatórios', link: '#',
         items: [
-          {text: 'Descomplicando o relatório analítico', link: '/reports#relatorio-analitico'},
-          {text: 'Gerando um relatório por período', link: '/reports#relatorio-sintetico'},
+          { text: 'Descomplicando o relatório analítico', link: '/reports#relatorio-analitico' },
+          { text: 'Gerando um relatório por período', link: '/reports#relatorio-sintetico' },
         ]
       }
     ],
