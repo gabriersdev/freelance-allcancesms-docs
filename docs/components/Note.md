@@ -1,0 +1,2 @@
+> [!NOTE]
+> Esta documentação está sendo elaborada. Algumas funcionalidades do Allcance SMS ainda não estão detalhadas aqui. Qualquer dúvida, não hesite em [contactar o nosso suporte.](https://wa.me/553132311301)
